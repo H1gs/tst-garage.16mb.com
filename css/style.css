@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Cuprum-Bold;
+    src: url('../fonts/Cuprum/Cuprum-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Cuprum-Regular;
+    src: url('../fonts/Cuprum/Cuprum-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url('../fonts/Bangers/Bangers.ttf') format('truetype');
+}
+
+#header {
+    background: url(/images/header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    margin: 120px 0 -40px 80px;
+    border: outset white 4px;
+}
+
+.main-menu {
+    width: 100%;
+    margin: 35px 0 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu a {
+    display: block;
+    /*    margin-bottom: -1px;*/
+    padding: 8px 85px;
+    color: hsla(0, 0%, 24%, 0.90);
+    text-decoration: none;
+    /*    border-bottom: 2px dotted rgba(171, 171, 171, 0.46);
+    */
+    font-size: 2em;
+    /*    font-weight: lighter;*/
+}
+
+.main-menu a:hover {
+    background: black;
+    color: white;
+}
+
+.li-center {
+    margin: auto;
+    font-family: Cuprum-Bold;
+}
+
+.hr-menu {
+    margin-top: -7px;
+    margin-bottom: 0px;
+    width: 50%;
+    border-bottom: 4px double #fcf8e3;
+}
+
+.img-content {
+    max-width: 50%;
+    float: left;
+}
+
+.hr-content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 50%;
+    border-bottom: 4px double rgba(51, 51, 51, 0.35);
+}
+
+.4-in-line {
+    font-size: 10px;
+}
+
+#content {
+    /*    width: 100%;*/
+    /*    margin: 35px 0 0 0;*/
+    padding: 0;
+    margin-top: 55px;
+    /*    list-style: none;*/
+}
+
+.line4 {
+    font-size: 10px;
+}
+
+.btn-modal {
+    background-color: #fff;
+    border: none;
+    text-align: -webkit-auto;
+}
